@@ -1,9 +1,10 @@
 import './App.css';
+import KeyPad from './components/KeyPad';
 
 function App() {
   return (
-    <div className="App">
-      
+    <div>
+      <KeyPad></KeyPad>
     </div>
   );
 }
