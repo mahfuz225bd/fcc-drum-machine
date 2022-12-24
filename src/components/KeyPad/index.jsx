@@ -1,9 +1,9 @@
 import React from 'react'
 import styles from './KeyPad.module.css'
 
-const KeyPad = (props) => {
+const KeyPad = ({ children }) => {
     return (
-        <div className={styles.keypad}>{props.children}</div>
+        <div className={styles.keypad}>{children}</div>
     )
 }
 
